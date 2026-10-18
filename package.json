@@ -1,0 +1,11 @@
+{
+  "name": "keyframe-forensics",
+  "version": "0.1.0",
+  "description": "Measure how a video is cut and animated with ffmpeg alone: cuts, shot rhythm, holds on ones/twos/threes, motion inside shots, and whether the picture follows the sound.",
+  "type": "module",
+  "bin": { "keyframe-forensics": "cli.js" },
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node --test" },
+  "author": "Shinabaze Ajiya",
+  "license": "MIT"
+}
